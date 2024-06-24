@@ -17,6 +17,10 @@ func Init(t *pb.Request) (response *pb.Response) {
 	}
 
 	switch param {
+	case "setsession":
+		response = SetSessionapi(t)
+	case "refresh_token":
+		response = RefreshSesion(t)
 	default:
 		response = ErrorReturn(t, 404, "000012", "Missing argument")
 	}

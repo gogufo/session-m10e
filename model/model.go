@@ -24,3 +24,10 @@ type ImpersonateTokens struct {
 	Created   int    `gorm:"column:created;type:int;DEFAULT '0'" json:"created"`
 	CreatedBy string `gorm:"column:createdby;type:varchar(254);DEFAULT '';" json:"createdby"`
 }
+
+type RefreshTokens struct {
+	gorm.Model
+	UID          string `gorm:"column:uid;type:varchar(60);NOT NULL;" json:"uid"`
+	RefreshToken string `gorm:"column:refresh_token;type:varchar(254);UNIQUE;NOT NULL;" json:"refresh_token"`
+	LifeTime     int    `gorm:"column:livetime;type:int;DEFAULT '0'" json:"lifetime"`
+}

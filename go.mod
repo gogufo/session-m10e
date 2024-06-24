@@ -5,7 +5,7 @@ go 1.21.6
 require (
 	github.com/certifi/gocertifi v0.0.0-20210507211836-431795d63e8d
 	github.com/getsentry/sentry-go v0.27.0
-	github.com/gogufo/gufo-api-gateway v1.14.1
+	github.com/gogufo/gufo-api-gateway v1.14.2
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/gomodule/redigo v1.8.9
 	github.com/microcosm-cc/bluemonday v1.0.26

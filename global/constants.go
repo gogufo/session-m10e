@@ -1,5 +1,5 @@
 package global
 
 const (
-	MicroServiceName = "microservices.session"
+	MicroServiceName = "session"
 )

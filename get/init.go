@@ -13,7 +13,7 @@ func Init(t *pb.Request) (response *pb.Response) {
 
 	if *t.Module != MicroServiceName {
 
-		param = *t.MS.Param
+		param = *t.IR.Param
 	}
 
 	switch param {
