@@ -5,7 +5,7 @@ go 1.21.6
 require (
 	github.com/certifi/gocertifi v0.0.0-20210507211836-431795d63e8d
 	github.com/getsentry/sentry-go v0.27.0
-	github.com/gogufo/gufo-api-gateway v1.14.2
+	github.com/gogufo/gufo-api-gateway v1.17.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/gomodule/redigo v1.8.9
 	github.com/microcosm-cc/bluemonday v1.0.26
@@ -17,6 +17,7 @@ require (
 
 require (
 	github.com/aymerick/douceur v0.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
